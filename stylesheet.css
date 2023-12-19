@@ -318,3 +318,68 @@ header .container {
 .article1 img, .article2 img, .article3 img {
   margin-left: 35px;
 }
+
+.benefits {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  height: 1395px;
+  background-color: var(--white-second);
+  opacity: 1;
+}
+
+.benefits h2 {
+  color: var(--black);
+  font-size: 36px;
+  font-family: var(--secondary-font);
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.benefits p {
+  color: var(--black);
+  font: 16px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  margin: 50px;
+}
+
+.line1 {
+  border: 1px solid var(--pink);
+  width: 327px;
+}
+
+.line2 {
+  border: 1px solid var(--blue);
+  width: 327px;
+}
+
+.line3 {
+  border: 1px solid var(--green);
+  width: 327px;
+}
+
+
+.first-benefit, .second-benefit {
+  width: 1124px;
+  height: 370px;
+  background-color: var(--white);
+  border: 1px solid var(--gray-light);
+  margin-bottom: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.first-benefit h2, .line1 {
+  margin-left: 49px;
+}
+
+.second-benefit h2, .line2 {
+  margin-left: 49px;
+}
+
+.third-benefit h2, .line3 {
+  margin-left: 49px;
+}
