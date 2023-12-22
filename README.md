@@ -2,6 +2,7 @@
 
 # Sekcje projektu BestShop
 # Nawigacja
+
 Pierwsza sekcja składa się z logo i nawigacji.
 
 Elementy nawigacji powinny być podświetlone (zmiana koloru z szarego na czarny) i podkreślone po najeździe myszką na każdy z nich.
@@ -46,3 +47,39 @@ prawa - formularz z dwoma polami tekstowymi, jednym checkboxem (ostylowanym nies
 # Stopka
 
 Najmniejsza sekcja w której mamy tylko logo firmy (tak jak w sekcji 1) a po drugiej stronie linki (a) do Facebooka i Twittera (powinny być klikalne).
+
+# Warsztat_2---BestShop
+
+# Sekcje projektu BestShop
+# Nawigacja i Sekcja otwierająca
+
+Pierwsza sekcja składa się z logo, nawigacji która jest ukryta w widoku mobilnym a także hamburger icon zmieniający się w "X" po naciśnięciu.
+
+Sekcja ta powinna zajmować 100vh ekranu użytkownika. Obrazek powinien zostać wyśrodkowany i na tyle zmniejszony aby nie nachodził na przycisk "Open your shop".
+
+Widzimy również, że napis pod nagłówkiem został ograniczony na szerokość i zawija się dosyć szybko.
+
+# Statystyki
+
+Elementy w tej sekcji ustawiają się pod sobą i są wycentrowane. Nagłówek również jest wycentrowany i naturalnie zawija się do kolejnych linii. Należy zadbać tutaj o dobą interlinię!
+
+# Benefity
+
+Sekcja benefitów dość mocno różni się od wersji desktopowej. Dwa pierwsze boxy mają dokładnie taki sam układ:
+
+obrazek z elementem dekoracyjnym na górze na środku
+nagłówek
+paragraf z tekstem bez kolorowej linii
+Ostatni box różni się od pozostałych układem. Obrazek wraz z całym tłem znajduje się pod treścią (nagłówkiem i paragrafem).
+
+# Cennik
+
+Aby cennik był czytelny w widoku mobilnym, również poszczególne jego elementy układają się jeden pod drugim.
+
+Nazwa pakietu wraz z ceną mają być obok listy opisującej dany pakiet.
+
+# Kontakt i stopka
+
+Formularz kontaktowy i stopka również uległy zmianie. Główne elementy układają się pod sobą. Nie ma tutaj większych zmian jeśli chodzi o wygląd czy układ.
+
+Stopka pozostaje bez zmian.
