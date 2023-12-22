@@ -9,33 +9,32 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="reset" href="./reset.css" />
-    <link rel="stylesheet" href="./stylesheet.css" />
+    <link rel="reset" href="css/reset.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
     <title>BestShop</title>
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="header">
+      <div class="header-container container">
         <a href="#" class="header-text">BestShop</a>
-        <nav class="header-nav">
-          <ul>
-            <li><a href="#">WHY US</a></li>
-            <li><a href="#">BENEFITS</a></li>
-            <li><a href="#">PRICES</a></li>
-            <li><a href="#">CONTACT</a></li>
+        <nav>
+          <ul class="header-nav">
+            <li class="nav-element"><a href="#" class="nav-link">WHY US</a></li>
+            <li class="nav-element"><a href="#" class="nav-link">BENEFITS</a></li>
+            <li class="nav-element"><a href="#" class="nav-link">PRICES</a></li>
+            <li class="nav-element"><a href="#" class="nav-link">CONTACT</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <section class="hero">
-      <div class="container">
+      <div class="hero-content">
         <h1>Sell More!</h1>
         <p>Open shop on your platform and increase your sales</p>
         <a href="#" class="button-hero button-primary button-large"
-          >Open your shop</a
-        >
-      </div>
-      <img alt="hero-section-photo" />
+          >Open your shop</a>
+          </div>
+        <img alt="hero-section-photo" src="assets/Background.png" />
     </section>
     <section class="statistics">
       <div class="container">
@@ -43,20 +42,14 @@
         <div class="statistics-articles">
           <article class="article1">
             <section class="circle1">
-              <img
-                src="assets/Person.svg"
-                alt="person-icon"
-              />
+              <img src="assets/Person.svg" alt="person-icon" />
             </section>
             <h3>100000 +</h3>
             <p>daily entries</p>
           </article>
           <article class="article2">
             <section class="circle2">
-              <img
-                src="assets/Eye.svg"
-                alt="eye-icon"
-              />
+              <img src="assets/Eye.svg" alt="eye-icon" />
             </section>
             <h3>2000000 +</h3>
             <p>
@@ -66,10 +59,7 @@
           </article>
           <article class="article3">
             <section class="circle3">
-              <img
-                src="assets/Catalog.svg"
-                alt="catalog-icon"
-              />
+              <img src="assets/Catalog.svg" alt="catalog-icon" />
             </section>
             <h3>10000 +</h3>
             <p>
@@ -180,41 +170,46 @@
     <section class="contact container" id="contact">
       <div class="contact__column">
         <h2 class="contact__title">Any questions?</h2>
-        <p class="contact__instruction">Leave your email address or contact us!</p>
+        <p class="contact__instruction">
+          Leave your email address or contact us!
+        </p>
         <div class="contact__details">
           <a href="mailto:info@bestshop.xyz" class="details__item">
             <img src="assets/Mail%20Icon.svg" alt="mail" />
             info@bestshop.xyz
           </a>
-    
+
           <a href="tel:123456789" class="details__item">
             <img src="assets/Phone%20Icon.svg" alt="phone" />
             123 456 789
           </a>
         </div>
       </div>
-    
+
       <div class="contact__column">
         <form class="form">
           <div class="form__field">
             <label class="form__label" for="name">Name</label>
             <input type="text" class="form__input name" id="name" />
           </div>
-    
+
           <div class="form__field">
             <label class="form__label" for="email">E-mail</label>
             <input type="email" class="form__input email" id="email" />
           </div>
-    
+
           <div class="form__consent">
             <label class="form__checkbox">
               <input type="checkbox" />
               <span class="checkbox"></span>
               <p class="consent__text">
-                I hereby give consent for my personal data included in my application to be processed for the purposes of
-                the recruitment process under the European Parliament’s and Council of the European Union Regulation on the
-                Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the
-                free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                I hereby give consent for my personal data included in my
+                application to be processed for the purposes of the recruitment
+                process under the European Parliament’s and Council of the
+                European Union Regulation on the Protection of Natural Persons
+                as of 27 April 2016, with regard to the processing of personal
+                data and on the free movement of such data, and repealing
+                Directive 95/46/EC (Data Protection Directive)
               </p>
             </label>
           </div>
@@ -226,7 +221,9 @@
       <div class="footer__container container">
         <div class="footer__info">
           <a href="#" class="logo">BestShop</a>
-          <span class="footer__copy">© 2019 BestShop LTD, All Rights Reserved</span>
+          <span class="footer__copy"
+            >© 2019 BestShop LTD, All Rights Reserved</span
+          >
         </div>
         <div class="footer__icons">
           <a href="#"><img src="assets/Twitter.svg" alt="twitter" /></a>
@@ -234,6 +231,5 @@
         </div>
       </div>
     </footer>
-    
   </body>
 </html>

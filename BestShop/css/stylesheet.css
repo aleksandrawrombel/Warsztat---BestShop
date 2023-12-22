@@ -71,17 +71,14 @@ a {
 
 header {
   height: 70px;
-  width: 100%;
-  background-color: var(--white);
-  box-shadow: 0px 3px 6px var(--gray);
-  opacity: 1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-header .container {
-  height: 100%;
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .header-text {
@@ -89,54 +86,43 @@ header .container {
   font-size: 2rem;
   font-weight: 300;
   font-family: var(--secondary-font);
-  text-align: left;
-  text-decoration: none;
 }
 
 .header-nav {
-  height: 100%;
-}
-
-.header-nav ul {
   display: flex;
-  height: 100%;
 }
 
-.header-nav li {
-  height: 70px;
-  display: flex;
-  align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.header-nav a {
-  color: var(--gray-darker);
-  letter-spacing: 0.1875rem;
+.nav-link {
+  color: var(--gray);
   font-weight: 700;
-  text-align: center;
   font-size: 0.6875rem;
-  display: flex;
-  align-items: center;
+  padding: 28px 18px 22px;
+  border-bottom: 4px solid transparent;
+  letter-spacing: 0.1875rem;
 }
 
-.header-nav li:hover a {
-  height: 100%;
-  width: auto;
-  border-bottom: 3px solid var(--blue);
+.nav-link:hover {
   color: var(--black);
+  border-color: var(--blue);
+}
+
+.nav__element {
+  padding: 0 26px;
+}
+
+.nav__element:last-child {
+  padding-right: 0;
 }
 
 .hero {
-  height: 712px;
-  width: 100%;
-  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hero .container {
-  height: 100%;
-  width: 100%;
-  background-color: var(--white);
+.hero-content {
+  margin-top: 130px;
+  text-align: center;
 }
 
 .hero h1 {
@@ -144,13 +130,13 @@ header .container {
   text-align: center;
   font-family: var(--secondary-font);
   font-size: 3.0625rem;
-  margin-top: 130px;
 }
 
 .hero p {
   color: var(--black);
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 38px;
 }
 
 .button-hero {
@@ -158,11 +144,8 @@ header .container {
   font-weight: bold;
   display: inline-block;
   padding: 16px 65px;
-  border-radius: var(--button-radius);
+  border-radius: 35px;
   border: none;
-  position: absolute;
-  transform: translate(104%);
-  margin-top: 2rem;
 }
 
 .button-primary {
@@ -178,7 +161,6 @@ header .container {
 .hero img {
   width: 100%;
   height: auto;
-  background-image: url("assets/Background.png");
 }
 
 .statistics {
@@ -524,7 +506,7 @@ header .container {
   height: 11px;
   display: inline-block;
   margin-right: 10px;
-  background-image: url("/BestShop/assets/Checkmark-1.svg");
+  background-image: url("../assets/Checkmark-1.svg");
 }
 
 .pricing__item--not::before {
@@ -700,12 +682,12 @@ header .container {
   height: 25px;
   width: 25px;
   background-color: var(--white);
-  border: 1px solid var(--grey);
+  border: 1px solid var(--gray);
   border-radius: 4px;
 }
 
 .form__checkbox input:checked ~ .checkbox {
-  background-image: url("assets/Checkmark.svg");
+  background-image: url("/BestShop/assets/Checkmark.svg");
   background-position: center;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -716,7 +698,7 @@ header .container {
   font-weight: bold;
   display: inline-block;
   padding: 16px 65px;
-  border-radius: var(--button-radius);
+  border-radius: 35px;
   border: none;
 }
 
@@ -733,7 +715,7 @@ header .container {
 .form__checkbox .consent__text {
   margin: 0 10px;
   font-size: 0.75rem;
-  color: var(--grey);
+  color: var(--gray);
   line-height: 17px;
 }
 
@@ -747,6 +729,13 @@ header .container {
 .footer {
   box-shadow: 0 -5px 40px var(--gray);
   padding: 20px 0;
+}
+
+.footer .logo {
+  color: var(--blue);
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: var(--secondary-font);
 }
 
 .footer__container {
@@ -764,7 +753,7 @@ header .container {
 .footer__copy {
   font-size: 0.6875rem;
   line-height: 1.5rem;
-  color: var(--grey);
+  color: var(--gray);
   margin-top: 6px;
 }
 
