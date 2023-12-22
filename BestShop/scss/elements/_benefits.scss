@@ -1,0 +1,82 @@
+@media (max-width: 1024px) {
+  .benefits__single--notebook {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 300;
+      margin-top: -2rem;
+    }
+
+    p {
+      margin-bottom: -4rem;
+    }
+  }
+  .benefits__text::after {
+    content: "";
+    width: 0;
+    height: 0;
+  }
+  .benefits__single--notebook .benefits__image {
+    margin: 3rem 3rem 0 3rem;
+    width: 19rem;
+    height: 10rem;
+  }
+  .benefits__single--notebook .benefits__image::before {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 45px;
+  }
+
+  .benefits__single--phone {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 300;
+      margin-top: -5rem;
+      margin-left: -2rem;
+    }
+
+    p {
+      margin-bottom: -3rem;
+      margin-left: -2rem;
+    }
+  }
+
+  .benefits__single--phone .benefits__image {
+    margin: 3rem 3rem 0 3rem;
+    width: 13rem;
+    height: 15rem;
+  }
+  .benefits__single--phone .benefits__image::before {
+    width: 11rem;
+    height: 11rem;
+  }
+  .benefits__double {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefits__single--solo .benefits__text {
+    .benefits__title {
+      font-size: 2rem;
+      font-weight: 300;
+      margin-top: -2rem;
+    }
+    p {
+      margin-bottom: -6rem;
+    }
+    .benefits__single--image {
+        margin-left: 0;
+    }
+  }
+}
+
