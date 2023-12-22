@@ -158,9 +158,16 @@ header {
   padding: 22px 155px;
 }
 
-.hero img {
+/* .hero-section-photo {
   width: 100%;
-  height: auto;
+  height: 100px;
+} */
+
+.photo {
+  background-image: url("../assets/Background.png");
+  background-size: cover;
+  height: 595px;
+  width: 100%;
 }
 
 .statistics {
