@@ -1,0 +1,144 @@
+@media (max-width: 1024px) {
+    .statistics {
+        font-size: 3rem;
+    }
+    .statistics-articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .statistics-articles p {
+        font-size: 1rem;
+    }
+    .article1, .article2 {
+        margin-bottom: 1.5rem;
+    }}
+
+    .statistics {
+        padding-top: 100px;
+        background-color: $white;
+      }
+      
+      .statistics-articles {
+        max-width: 800px;
+        margin: 100px auto 120px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 101px;
+      }
+      
+      .statistics h2 {
+        color: $black;
+        text-align: center;
+        font-family: $secondary-font;
+        font-size: 2.25rem;
+      }
+      
+      .article1 {
+        max-width: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        font-family: $secondary-font;
+      }
+      
+      .article2 {
+        max-width: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        font-family: $secondary-font;
+      }
+      
+      .article3 {
+        max-width: 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        font-family: $secondary-font;
+      }
+      
+      .circle1 {
+        border-radius: 50%;
+        width: 63px;
+        height: 63px;
+        position: relative;
+        background-color: $pink;
+      }
+      
+      .circle2 {
+        border-radius: 50%;
+        width: 63px;
+        height: 63px;
+        position: relative;
+        background-color: $blue;
+      }
+      
+      .circle3 {
+        border-radius: 50%;
+        width: 63px;
+        height: 63px;
+        position: relative;
+        background-color: $green;
+      }
+      
+      .article1 img {
+        position: absolute;
+        top: 0;
+        left: 45%;
+      }
+      
+      .article2 img {
+        position: absolute;
+        top: 14px;
+        left: 47%;
+      }
+      
+      .article3 img {
+        position: absolute;
+        top: 6px;
+        left: 50%;
+      }
+      
+      .article1 h3 {
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 0.1875rem;
+        margin-top: 13px;
+      }
+      
+      .article2 h3 {
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 0.1875rem;
+        margin-top: 13px;
+        font-family: $secondary-font;
+        color: $black;
+      }
+      
+      .article3 h3 {
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 0.1875rem;
+        margin-top: 13px;
+        font-family: $secondary-font;
+        color: var(--black);
+      }
+      
+      .article1 p,
+      .article2 p,
+      .article3 p {
+        color: $gray-darker;
+        font-family: $secondary-font;
+        margin-top: 19px;
+      }
+      
