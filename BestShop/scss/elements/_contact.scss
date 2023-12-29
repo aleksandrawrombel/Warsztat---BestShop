@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+    #contact {
+        display: flex;
+        flex-direction: column;
+
+        .contact__details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    }
+    .contact__column {
+        width: 100%;
+        margin: 2rem;
+        
+        .form {
+            margin-right: 3rem;
+        }
+    }
+}
