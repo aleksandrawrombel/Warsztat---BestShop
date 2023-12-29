@@ -45,6 +45,7 @@
   color: $blue;
   display: block;
   text-align: center;
+  cursor: pointer;
 }
 
 .hamburger-btn:checked ~ .nav-mobile {

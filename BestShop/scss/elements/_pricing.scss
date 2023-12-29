@@ -1,0 +1,61 @@
+@media (max-width: 1024px) {
+  #prices h2 {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+  .pricing__boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing__box {
+    margin-bottom: 5rem;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .pricing__details {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+  }
+  .pricing__items {
+    margin-left: 3rem;
+    text-align: left;
+  }
+  .pricing__box .btn1 {
+    align-self: flex-end;
+    margin-left: -14rem;
+  }
+  .pricing__item {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  .pricing__box--professional {
+    .pricing__details {
+      margin-left: 2rem;
+    }
+    .pricing__items {
+      margin-left: 1rem;
+      text-align: left;
+    }
+    .btn2 {
+      align-self: flex-end;
+      margin-left: -14rem;
+    }
+  }
+  .pricing__box--premium {
+    .pricing__details {
+        margin-left: 2rem;
+      }
+      .pricing__items {
+        margin-left: 2rem;
+        text-align: left;
+      }
+      .btn3 {
+        align-self: flex-end;
+        margin-left: -13rem;
+      }
+  }
+}
